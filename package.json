@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.22.7",
+    "@react-three/fiber": "^8.3.1",
+    "@splinetool/loader": "^0.9.95",
+    "@splinetool/r3f-spline": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +14,13 @@
     "@types/node": "^16.11.49",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "immer": "^9.0.15",
+    "nanoid": "^3.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.3.0",
     "react-scripts": "5.0.1",
+    "three": "^0.143.0",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/three": "^0.143.1"
   }
 }
