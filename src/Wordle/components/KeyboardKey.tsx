@@ -7,8 +7,8 @@ export const KeyboardKey = ({
   materials,
   keyName,
   activeKey,
-  setActiveKey,
-}: any) => {
+}: // setActiveKey,
+any) => {
   const modifiedPosition = useMemo(() => {
     if (keyName === activeKey) {
       const newPosition = [...position];
@@ -19,10 +19,10 @@ export const KeyboardKey = ({
   }, [activeKey]);
   return (
     <group
-      onPointerDown={e => {
-        setActiveKey(keyName);
-      }}
-      onPointerUp={() => setActiveKey("")}
+      // onPointerDown={e => {
+      //   setActiveKey(keyName);
+      // }}
+      // onPointerUp={() => setActiveKey("")}
       position={modifiedPosition}
       scale={0.55}>
       <Text
